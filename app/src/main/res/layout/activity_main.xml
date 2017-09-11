@@ -6,13 +6,17 @@
     android:layout_height="match_parent"
     tools:context="com.example.zhuguangjun.utils.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+<Button
+    android:id="@+id/circle_progress"
+    android:layout_width="306dp"
+    android:layout_height="66dp"
+    android:text="圆形进度条"
+    android:layout_marginRight="8dp"
+    app:layout_constraintRight_toRightOf="parent"
+    android:layout_marginLeft="8dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginTop="46dp"
+    app:layout_constraintHorizontal_bias="0.504" />
 
 </android.support.constraint.ConstraintLayout>
